@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <img class="logo-moon" src="assets/images/logo.svg" alt="">
+    <button class="btn-moon">
+      <img class="icon-moon" src="/assets/images/icon-moon.svg" alt="">
+    </button>
+
+  </header>
+
+  <section  class="hero-section">
+      <h1 class="h1-hero">Extensions List</h1>
+      <div class="btn-hero">
+        <button class="btn-all">All</button>
+        <button class="btn-active">Active</button>
+        <button class="btn-inactive">Inactive</button>
+      </div>
+  </section>
+
+  <main class="container-extensions">
+  <!-- If you plan to use the JSON file to populate the data dynamically, you can delete the content below -->
+
+    <section class="cards conteiner-devlens">
+
+      <div class="div-devlens">
+        <img class="img-card" src="assets/images/logo-devlens.svg" alt="">
+        <div class="div-text">
+          <h3 class="title-card">DevLens</h3>
+          <p class="p-card">Quickly inspect page layouts and visualize element boundaries.</p>
+        </div>
+      </div>
+      <div>
+        <button class="btn-card">Remove</button>
+        <input type="checkbox" id="check">
+        <label for="check"></label>
+      </div>
+
+    </section>
+
+
+    <section class="cards conteiner-stylespy">
+
+      <div>
+        <img class="img-card" src="assets/images/logo-style-spy.svg" alt="">
+        <div class="div-text">
+          <h3 class="title-card">StyleSpy</h3>
+          <p class="p-card">Instantly analyze and copy CSS from any webpage element.</p>
+        </div>
+      </div>
+
+      <div>
+        <button class="btn-card">Remove</button>
+        <input type="checkbox" id="check">
+        <label for="check"></label>
+      </div>
+
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>SpeedBoost</h3>
+          <p>Optimizes browser resource usage to accelerate page loading.</p>
+        </div>
+      </div>
+
+      <div>
+        <button>Remove</button>
+        <button type="checkbox"></button>
+      </div>
+  
+  
+
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>JSONWizard</h3>
+          <p> Formats, validates, and prettifies JSON responses in-browser.</p>
+        </div>
+      </div>
+
+      <div>
+        <button>Remove</button>
+        <button type="checkbox"></button>
+      </div>
+  
+ 
+
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>TabMaster Pro</h3>
+          <p>Organizes browser tabs into groups and sessions.</p>
+        </div>
+      </div>
+
+      <div>
+        <button>Remove</button>
+        <button type="checkbox"></button>
+      </div>
+
+ 
+
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>ViewportBuddy</h3>
+          <p>Simulates various screen resolutions directly within the browser.</p>
+        </div>
+      </div>
+
+      <div>
+        <button>Remove</button>
+        <button type="checkbox"></button>
+      </div>
+
+  
+  
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>Markup Notes</h3>
+          <p>Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+        </div>
+      </div>
+      <div>
+        <button>Remove</button>
+        <button type="checkbox" ></button>
+      </div>
+
+  
+  
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>GridGuides</h3>
+          <p>Overlay customizable grids and alignment guides on any webpage.</p>
+        </div>
+      </div>
+
+      <div>
+        <button>Remove</button>
+        <button type="checkbox"></button>
+      </div>
+  
+  
+  
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>Palette Picker</h3>
+          <p>Instantly extracts color palettes from any webpage.</p>
+        </div>
+      </div>
+
+      <div>
+        <button>Remove</button>
+        <button type="checkbox"></button>
+      </div>
+  
+  
+  
+
+
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>LinkChecker</h3>
+          <p>Scans and highlights broken links on any page.</p>
+        </div>
+      </div>
+
+      <div>
+        <button> Remove</button>
+        <button type="checkbox"></button>
+      </div>
+ 
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>DOM Snapshot</h3>
+          <p>Capture and export DOM structures quickly.</p>
+        </div>
+      </div>
+
+      <div>
+        <button> Remove</button>
+        <button type="checkbox"></button>
+      </div>
+
+    </section>
+
+
+    <section class="cards">
+
+      <div>
+        <div></div>
+        <div>
+          <h3>ConsolePlus</h3>
+          <p>Enhanced developer console with advanced filtering and logging.</p>
+        </div>
+      </div>
+
+      <div>
+        <button> Remove</button>
+        <button type="checkbox"></button>
+      </div>
+  
+    </section>
+
+
+  </main>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
